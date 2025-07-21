@@ -2,7 +2,7 @@ public class Pessoa {
 
     //Atributos
     private String nome;
-    private int cpf;
+    private String cpf;
     private int idade;
     private String email;
     private boolean usuarioAtivo;
@@ -16,11 +16,11 @@ public class Pessoa {
         this.nome = nome;
     }
 
-    public int getCpf(){
+    public String getCpf(){
         return cpf;
     }
 
-    public void setCpf(int cpf){
+    public void setCpf(String cpf){
         this.cpf = cpf;
     }
 
